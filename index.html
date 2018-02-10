@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- 	<link rel="stylesheet" href="bootstrap.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<h4>One test task</h4>
+			<div class="progress">
+				<div class="progress-bar progress-bar-info progress-bar-striped" data-toggle="tooltip" data-placement="top" title="0">
+					<span class="markd">10%</span>
+				</div>
+				<div class="progress-bar progress-bar-warning progress-bar-striped"  data-toggle="tooltip" data-placement="top" title="0">
+					<span class="markd">20%</span>
+				</div>
+				<div class="progress-bar progress-bar-success progress-bar-striped"  data-toggle="tooltip" data-placement="top" title="0">
+					<span class="markd">10%</span>
+				</div>
+				<div class="progress-bar progress-bar-gray progress-bar-striped"  data-toggle="tooltip" data-placement="top" title="0">
+					<span class="markd">10%</span>
+				</div>
+				<div class="progress-bar progress-bar-danger progress-bar-striped" data-toggle="tooltip" data-placement="top" title="0">
+					<span class="markd">10%</span>
+				</div>
+			</div>
+		</header>
+		<div class="Warn">
+			<div class="alert alert-danger" role="alert" style = "display: none">Hello</div>
+		</div>
+		<div class="Banner">
+			<hr>
+			<h1>Form to submit</h1>
+			<h4>(Notice, you can use only number data in range 0 - 999999999)</h4>
+			<form id="AjForm"">
+				<div class="row">
+					<div class="col-xs-6 col-md-2">
+						<div class="form-group">
+							<label for="total_count">Total count</label>
+							<input type="text" id="total_count" class="form-control" name="total_count" placeholder="total count..." >
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="form-group">
+							<label for="delivered">Delivered</label>
+							<input type="text" id="delivered" class="form-control" name="delivered" placeholder="delivered...">
+						</div>
+					</div>
+				<div class="col-xs-6 col-md-2">
+						<div class="form-group">
+							<label for="fail">Fail</label>
+							<input type="text" id="fail" class="form-control"  placeholder="fail...">
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="form-group">
+							<label for="open">Open</label>
+							<input type="text" id="open" class="form-control"  placeholder="open...">
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="form-group">
+							<label for="'click">Click</label>
+							<input type="text" id="click" class="form-control"  placeholder="click...">
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="form-group btn-group-md">
+							<div class="btn btn-success pull-left">Submit</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.min.js"
+	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	crossorigin="anonymous"></script>
+	
+	 <!-- <script src="jquery-3.2.1.min.js"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- <script src="bootstrap.min.js"></script> -->
+	<script src="js/common.js"></script>
+</body>
+</html>

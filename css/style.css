@@ -1,0 +1,23 @@
+.Banner h1{
+	padding-top: 20px;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.progress-bar-gray{
+	background: gray;
+}
+
+.progress{
+	font-size: 20px;
+	overflow: hidden;
+}
+
+.progress .progress-bar{
+	overflow: hidden; 
+}
+h4{
+	text-align: center;
+}
+
